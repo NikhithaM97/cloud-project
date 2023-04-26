@@ -28,3 +28,4 @@ def Cifar10_Prediction(img, weights, classes, target_size):
 
     return classification
 
+
