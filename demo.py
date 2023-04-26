@@ -2,7 +2,7 @@ from PIL import Image
 import streamlit as st
 from functions.CustomFunctions import Cifar10_Prediction
 
-st.header("Image Classification - Tensorflow CNN")
+st.header("Image Classification - Pytorch CNN")
 st.subheader("Dataset - Cifar 10")
 
 uploaded_file = st.file_uploader("Choose a image ...", type=["png", "jpg", "jpeg"])
